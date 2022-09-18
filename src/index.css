@@ -1,0 +1,49 @@
+:root {
+  --secondary-color: rgba(0, 0, 0, 0.54);
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  margin: 1rem;
+  padding: 0;
+  font-size: 1rem;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.01em;
+  max-width: 900px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  font-weight: bold;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,78 @@
+:root {
+  --divider-color: rgba(0, 0, 0, 0.12);
+  --tooltip-bg-color: #d0d0d0;
+}
+
+.message {
+	margin: 1em;
+	display: flex;
+  width: 100%;
+}
+
+.message-title {
+	display: inline-block;
+	position: relative;
+}
+
+@media only screen and (max-width: 600px) {
+  .message-title {
+    color: red;
+  }
+}
+
+.date-time {
+	font-size: 0.875rem;
+	color: var(--secondary-color);
+}
+
+.message .content {
+	border-bottom: 1px solid var(--divider-color);
+	width: 100%;
+	margin-left: 0.8em;
+	margin-bottom: 0.5em;
+	padding-bottom: 1em;
+}
+
+.message .avatar {
+	width: 2.5em;
+	height: 2.5em;
+	margin-top: 0.4em;
+	border-radius: 50%;
+}
+
+.message-title:after {
+  content: attr(data-tooltip);
+  position: absolute;
+	bottom: 130%;
+	left: 20%;
+	background: var(--tooltip-bg-color);
+	padding: 5px 15px;
+	color: black;
+	border-radius: 10px;
+	white-space: nowrap;
+	opacity: 0;
+	transition: all 0.5s ease;
+}
+.message-title:before {
+	content: "";
+	position: absolute;
+	width: 0;
+	height: 0;
+	border-top: 20px solid var(--tooltip-bg-color);
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	transition: all 0.5s ease;
+	opacity: 0;
+	left: 30%;
+	bottom: 90%;
+}
+.message-title:hover:after {
+	bottom: 100%;
+}
+.message-title:hover:before {
+	bottom: 70%;
+}
+.message-title:hover:after,
+.message-title:hover:before {
+	opacity: 1;
+}
