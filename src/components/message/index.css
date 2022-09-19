@@ -52,7 +52,7 @@
 .email {
   position: absolute;
 	bottom: 110%;
-	left: 100px;
+	left: 30px;
 	background: var(--tooltip-bg-color);
 	padding: 5px 15px;
 	color: black;
