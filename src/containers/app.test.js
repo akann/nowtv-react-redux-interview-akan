@@ -40,7 +40,7 @@ describe('<App />', () => {
     });
   });
 
-  it("should return to default list when HOME is clicked", async () => {
+  it("should return to default list when RESET is clicked", async () => {
     const { container } = renderWithProviders(<App />);
     await waitFor(() => screen.getByTestId('main-page'));
 
@@ -49,7 +49,9 @@ describe('<App />', () => {
     fireEvent.click(container.querySelector('.message .full-name'));
     expect(container.querySelectorAll('.message').length).toEqual(3);
 
-    fireEvent.click(screen.getByTestId('home'));
+    expect(screen.getByTestId('reset')).toBeInTheDocument();
+
+    fireEvent.click(screen.getByTestId('reset'));
     expect(container.querySelectorAll('.message').length).toEqual(100);
 
   });

@@ -10,15 +10,6 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
         Welcome to the Akan's NOW TV test!
       </h1>
     </header>
-    <nav>
-      <a
-        data-testid="home"
-        href="/"
-        tabindex="0"
-      >
-        Home
-      </a>
-    </nav>
     <section>
       <ul>
         <li
@@ -34,9 +25,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="abakera@craigslist.org"
+              data-testid="message-title"
             >
               Mauris lacinia sapien quis libero.
+              <span
+                class="email"
+              >
+                abakera@craigslist.org
+              </span>
             </div>
             <div>
               <a
@@ -66,9 +62,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="wgonzalezz@va.gov"
+              data-testid="message-title"
             >
               Nulla tempus. Vivamus in felis eu sapien cursus vestibulum.
+              <span
+                class="email"
+              >
+                wgonzalezz@va.gov
+              </span>
             </div>
             <div>
               <a
@@ -98,9 +99,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="arosec@bbb.org"
+              data-testid="message-title"
             >
               Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.
+              <span
+                class="email"
+              >
+                arosec@bbb.org
+              </span>
             </div>
             <div>
               <a
@@ -130,9 +136,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="phoward12@chronoengine.com"
+              data-testid="message-title"
             >
               Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.
+              <span
+                class="email"
+              >
+                phoward12@chronoengine.com
+              </span>
             </div>
             <div>
               <a
@@ -162,9 +173,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="pharperr@who.int"
+              data-testid="message-title"
             >
               In hac habitasse platea dictumst.
+              <span
+                class="email"
+              >
+                pharperr@who.int
+              </span>
             </div>
             <div>
               <a
@@ -194,9 +210,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="mbradley0@google.it"
+              data-testid="message-title"
             >
               Cras in purus eu magna vulputate luctus.
+              <span
+                class="email"
+              >
+                mbradley0@google.it
+              </span>
             </div>
             <div>
               <a
@@ -226,9 +247,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="dfowlerf@stanford.edu"
+              data-testid="message-title"
             >
               Morbi porttitor lorem id ligula.
+              <span
+                class="email"
+              >
+                dfowlerf@stanford.edu
+              </span>
             </div>
             <div>
               <a
@@ -258,9 +284,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="bpierce17@homestead.com"
+              data-testid="message-title"
             >
               Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat. Praesent blandit.
+              <span
+                class="email"
+              >
+                bpierce17@homestead.com
+              </span>
             </div>
             <div>
               <a
@@ -290,9 +321,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="kharveyn@google.nl"
+              data-testid="message-title"
             >
               Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo.
+              <span
+                class="email"
+              >
+                kharveyn@google.nl
+              </span>
             </div>
             <div>
               <a
@@ -322,9 +358,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="wgonzalezz@va.gov"
+              data-testid="message-title"
             >
               Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo. In blandit ultrices enim.
+              <span
+                class="email"
+              >
+                wgonzalezz@va.gov
+              </span>
             </div>
             <div>
               <a
@@ -354,9 +395,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="treyesg@dmoz.org"
+              data-testid="message-title"
             >
               Donec dapibus. Duis at velit eu est congue elementum.
+              <span
+                class="email"
+              >
+                treyesg@dmoz.org
+              </span>
             </div>
             <div>
               <a
@@ -386,9 +432,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="rknighte@kickstarter.com"
+              data-testid="message-title"
             >
               Curabitur at ipsum ac tellus semper interdum. Mauris ullamcorper purus sit amet nulla.
+              <span
+                class="email"
+              >
+                rknighte@kickstarter.com
+              </span>
             </div>
             <div>
               <a
@@ -418,9 +469,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="abrowny@flickr.com"
+              data-testid="message-title"
             >
               Pellentesque eget nunc. Donec quis orci eget orci vehicula condimentum. Curabitur in libero ut massa volutpat convallis.
+              <span
+                class="email"
+              >
+                abrowny@flickr.com
+              </span>
             </div>
             <div>
               <a
@@ -450,9 +506,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="awilliams8@indiegogo.com"
+              data-testid="message-title"
             >
               In sagittis dui vel nisl. Duis ac nibh. Fusce lacus purus, aliquet at, feugiat non, pretium quis, lectus.
+              <span
+                class="email"
+              >
+                awilliams8@indiegogo.com
+              </span>
             </div>
             <div>
               <a
@@ -482,9 +543,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="awilliams8@indiegogo.com"
+              data-testid="message-title"
             >
               Donec odio justo, sollicitudin ut, suscipit a, feugiat et, eros. Vestibulum ac est lacinia nisi venenatis tristique.
+              <span
+                class="email"
+              >
+                awilliams8@indiegogo.com
+              </span>
             </div>
             <div>
               <a
@@ -514,9 +580,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="bhill11@java.com"
+              data-testid="message-title"
             >
               Duis aliquam convallis nunc. Proin at turpis a pede posuere nonummy.
+              <span
+                class="email"
+              >
+                bhill11@java.com
+              </span>
             </div>
             <div>
               <a
@@ -546,9 +617,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="abrowny@flickr.com"
+              data-testid="message-title"
             >
               In congue. Etiam justo.
+              <span
+                class="email"
+              >
+                abrowny@flickr.com
+              </span>
             </div>
             <div>
               <a
@@ -578,9 +654,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="dmurphyq@oracle.com"
+              data-testid="message-title"
             >
               Proin eu mi. Nulla ac enim.
+              <span
+                class="email"
+              >
+                dmurphyq@oracle.com
+              </span>
             </div>
             <div>
               <a
@@ -610,9 +691,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="treyesg@dmoz.org"
+              data-testid="message-title"
             >
               In hac habitasse platea dictumst. Etiam faucibus cursus urna. Ut tellus.
+              <span
+                class="email"
+              >
+                treyesg@dmoz.org
+              </span>
             </div>
             <div>
               <a
@@ -642,9 +728,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="abrowny@flickr.com"
+              data-testid="message-title"
             >
               Pellentesque at nulla.
+              <span
+                class="email"
+              >
+                abrowny@flickr.com
+              </span>
             </div>
             <div>
               <a
@@ -674,9 +765,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="hharrisonj@github.io"
+              data-testid="message-title"
             >
               Maecenas rhoncus aliquam lacus.
+              <span
+                class="email"
+              >
+                hharrisonj@github.io
+              </span>
             </div>
             <div>
               <a
@@ -706,9 +802,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="shenry19@desdev.cn"
+              data-testid="message-title"
             >
               In eleifend quam a odio. In hac habitasse platea dictumst.
+              <span
+                class="email"
+              >
+                shenry19@desdev.cn
+              </span>
             </div>
             <div>
               <a
@@ -738,9 +839,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="jpayne3@youtube.com"
+              data-testid="message-title"
             >
               Aenean lectus.
+              <span
+                class="email"
+              >
+                jpayne3@youtube.com
+              </span>
             </div>
             <div>
               <a
@@ -770,9 +876,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="lowensm@earthlink.net"
+              data-testid="message-title"
             >
               Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.
+              <span
+                class="email"
+              >
+                lowensm@earthlink.net
+              </span>
             </div>
             <div>
               <a
@@ -802,9 +913,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="afreeman14@state.gov"
+              data-testid="message-title"
             >
               Morbi quis tortor id nulla ultrices aliquet. Maecenas leo odio, condimentum id, luctus nec, molestie sed, justo. Pellentesque viverra pede ac diam.
+              <span
+                class="email"
+              >
+                afreeman14@state.gov
+              </span>
             </div>
             <div>
               <a
@@ -834,9 +950,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="hharrisonj@github.io"
+              data-testid="message-title"
             >
               Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.
+              <span
+                class="email"
+              >
+                hharrisonj@github.io
+              </span>
             </div>
             <div>
               <a
@@ -866,9 +987,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="kharveyn@google.nl"
+              data-testid="message-title"
             >
               Integer non velit.
+              <span
+                class="email"
+              >
+                kharveyn@google.nl
+              </span>
             </div>
             <div>
               <a
@@ -898,9 +1024,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="rknighte@kickstarter.com"
+              data-testid="message-title"
             >
               Nam nulla. Integer pede justo, lacinia eget, tincidunt eget, tempus vel, pede. Morbi porttitor lorem id ligula.
+              <span
+                class="email"
+              >
+                rknighte@kickstarter.com
+              </span>
             </div>
             <div>
               <a
@@ -930,9 +1061,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="pharperr@who.int"
+              data-testid="message-title"
             >
               Nunc purus.
+              <span
+                class="email"
+              >
+                pharperr@who.int
+              </span>
             </div>
             <div>
               <a
@@ -962,9 +1098,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="lowensm@earthlink.net"
+              data-testid="message-title"
             >
               Aliquam non mauris.
+              <span
+                class="email"
+              >
+                lowensm@earthlink.net
+              </span>
             </div>
             <div>
               <a
@@ -994,9 +1135,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="shenryd@va.gov"
+              data-testid="message-title"
             >
               Cras in purus eu magna vulputate luctus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              <span
+                class="email"
+              >
+                shenryd@va.gov
+              </span>
             </div>
             <div>
               <a
@@ -1026,9 +1172,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="rknighte@kickstarter.com"
+              data-testid="message-title"
             >
               Nulla mollis molestie lorem. Quisque ut erat. Curabitur gravida nisi at nibh.
+              <span
+                class="email"
+              >
+                rknighte@kickstarter.com
+              </span>
             </div>
             <div>
               <a
@@ -1058,9 +1209,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="treyesg@dmoz.org"
+              data-testid="message-title"
             >
               Pellentesque at nulla. Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+              <span
+                class="email"
+              >
+                treyesg@dmoz.org
+              </span>
             </div>
             <div>
               <a
@@ -1090,9 +1246,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="phowell15@nymag.com"
+              data-testid="message-title"
             >
               Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.
+              <span
+                class="email"
+              >
+                phowell15@nymag.com
+              </span>
             </div>
             <div>
               <a
@@ -1122,9 +1283,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="pharperr@who.int"
+              data-testid="message-title"
             >
               Phasellus in felis. Donec semper sapien a libero. Nam dui.
+              <span
+                class="email"
+              >
+                pharperr@who.int
+              </span>
             </div>
             <div>
               <a
@@ -1154,9 +1320,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="hhawkins1@posterous.com"
+              data-testid="message-title"
             >
               Integer a nibh. In quis justo. Maecenas rhoncus aliquam lacus.
+              <span
+                class="email"
+              >
+                hhawkins1@posterous.com
+              </span>
             </div>
             <div>
               <a
@@ -1186,9 +1357,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="mandrews4@google.it"
+              data-testid="message-title"
             >
               Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+              <span
+                class="email"
+              >
+                mandrews4@google.it
+              </span>
             </div>
             <div>
               <a
@@ -1218,9 +1394,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="abrowny@flickr.com"
+              data-testid="message-title"
             >
               Suspendisse ornare consequat lectus. In est risus, auctor sed, tristique in, tempus sit amet, sem. Fusce consequat.
+              <span
+                class="email"
+              >
+                abrowny@flickr.com
+              </span>
             </div>
             <div>
               <a
@@ -1250,9 +1431,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="treyesg@dmoz.org"
+              data-testid="message-title"
             >
               Quisque arcu libero, rutrum ac, lobortis vel, dapibus at, diam.
+              <span
+                class="email"
+              >
+                treyesg@dmoz.org
+              </span>
             </div>
             <div>
               <a
@@ -1282,9 +1468,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="abrowny@flickr.com"
+              data-testid="message-title"
             >
               Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.
+              <span
+                class="email"
+              >
+                abrowny@flickr.com
+              </span>
             </div>
             <div>
               <a
@@ -1314,9 +1505,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="afreeman14@state.gov"
+              data-testid="message-title"
             >
               Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh.
+              <span
+                class="email"
+              >
+                afreeman14@state.gov
+              </span>
             </div>
             <div>
               <a
@@ -1346,9 +1542,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="bpierce17@homestead.com"
+              data-testid="message-title"
             >
               Donec ut mauris eget massa tempor convallis. Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.
+              <span
+                class="email"
+              >
+                bpierce17@homestead.com
+              </span>
             </div>
             <div>
               <a
@@ -1378,9 +1579,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="bpierce17@homestead.com"
+              data-testid="message-title"
             >
               Nunc rhoncus dui vel sem. Sed sagittis. Nam congue, risus semper porta volutpat, quam pede lobortis ligula, sit amet eleifend pede libero quis orci.
+              <span
+                class="email"
+              >
+                bpierce17@homestead.com
+              </span>
             </div>
             <div>
               <a
@@ -1410,9 +1616,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="shenryd@va.gov"
+              data-testid="message-title"
             >
               In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.
+              <span
+                class="email"
+              >
+                shenryd@va.gov
+              </span>
             </div>
             <div>
               <a
@@ -1442,9 +1653,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="hharrisonj@github.io"
+              data-testid="message-title"
             >
               Vestibulum rutrum rutrum neque.
+              <span
+                class="email"
+              >
+                hharrisonj@github.io
+              </span>
             </div>
             <div>
               <a
@@ -1474,9 +1690,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="pharperr@who.int"
+              data-testid="message-title"
             >
               Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl. Nunc rhoncus dui vel sem.
+              <span
+                class="email"
+              >
+                pharperr@who.int
+              </span>
             </div>
             <div>
               <a
@@ -1506,9 +1727,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="bhill11@java.com"
+              data-testid="message-title"
             >
               Nunc rhoncus dui vel sem.
+              <span
+                class="email"
+              >
+                bhill11@java.com
+              </span>
             </div>
             <div>
               <a
@@ -1538,9 +1764,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="jrogers5@chron.com"
+              data-testid="message-title"
             >
               Cras non velit nec nisi vulputate nonummy.
+              <span
+                class="email"
+              >
+                jrogers5@chron.com
+              </span>
             </div>
             <div>
               <a
@@ -1570,9 +1801,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="sshaw1c@naver.com"
+              data-testid="message-title"
             >
               In tempor, turpis nec euismod scelerisque, quam turpis adipiscing lorem, vitae mattis nibh ligula nec sem. Duis aliquam convallis nunc.
+              <span
+                class="email"
+              >
+                sshaw1c@naver.com
+              </span>
             </div>
             <div>
               <a
@@ -1602,9 +1838,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="dfowlerf@stanford.edu"
+              data-testid="message-title"
             >
               Suspendisse accumsan tortor quis turpis. Sed ante. Vivamus tortor.
+              <span
+                class="email"
+              >
+                dfowlerf@stanford.edu
+              </span>
             </div>
             <div>
               <a
@@ -1634,9 +1875,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="cgreenx@ftc.gov"
+              data-testid="message-title"
             >
               Proin at turpis a pede posuere nonummy. Integer non velit.
+              <span
+                class="email"
+              >
+                cgreenx@ftc.gov
+              </span>
             </div>
             <div>
               <a
@@ -1666,9 +1912,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="awilliams8@indiegogo.com"
+              data-testid="message-title"
             >
               Quisque porta volutpat erat. Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla.
+              <span
+                class="email"
+              >
+                awilliams8@indiegogo.com
+              </span>
             </div>
             <div>
               <a
@@ -1698,9 +1949,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="dmurphyq@oracle.com"
+              data-testid="message-title"
             >
               Donec ut dolor. Morbi vel lectus in quam fringilla rhoncus.
+              <span
+                class="email"
+              >
+                dmurphyq@oracle.com
+              </span>
             </div>
             <div>
               <a
@@ -1730,9 +1986,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="arosec@bbb.org"
+              data-testid="message-title"
             >
               Nullam varius. Nulla facilisi.
+              <span
+                class="email"
+              >
+                arosec@bbb.org
+              </span>
             </div>
             <div>
               <a
@@ -1762,9 +2023,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="sshaw1c@naver.com"
+              data-testid="message-title"
             >
               Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.
+              <span
+                class="email"
+              >
+                sshaw1c@naver.com
+              </span>
             </div>
             <div>
               <a
@@ -1794,9 +2060,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="rnguyen6@odnoklassniki.ru"
+              data-testid="message-title"
             >
               Morbi non lectus. Aliquam sit amet diam in magna bibendum imperdiet.
+              <span
+                class="email"
+              >
+                rnguyen6@odnoklassniki.ru
+              </span>
             </div>
             <div>
               <a
@@ -1826,9 +2097,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="mmurrayk@wikimedia.org"
+              data-testid="message-title"
             >
               Curabitur in libero ut massa volutpat convallis. Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.
+              <span
+                class="email"
+              >
+                mmurrayk@wikimedia.org
+              </span>
             </div>
             <div>
               <a
@@ -1858,9 +2134,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="kharveyn@google.nl"
+              data-testid="message-title"
             >
               Nulla tellus.
+              <span
+                class="email"
+              >
+                kharveyn@google.nl
+              </span>
             </div>
             <div>
               <a
@@ -1890,9 +2171,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="afreeman14@state.gov"
+              data-testid="message-title"
             >
               Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+              <span
+                class="email"
+              >
+                afreeman14@state.gov
+              </span>
             </div>
             <div>
               <a
@@ -1922,9 +2208,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="dmurphyq@oracle.com"
+              data-testid="message-title"
             >
               In blandit ultrices enim.
+              <span
+                class="email"
+              >
+                dmurphyq@oracle.com
+              </span>
             </div>
             <div>
               <a
@@ -1954,9 +2245,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="mmurrayk@wikimedia.org"
+              data-testid="message-title"
             >
               Maecenas tristique, est et tempus semper, est quam pharetra magna, ac consequat metus sapien ut nunc.
+              <span
+                class="email"
+              >
+                mmurrayk@wikimedia.org
+              </span>
             </div>
             <div>
               <a
@@ -1986,9 +2282,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="jrogers5@chron.com"
+              data-testid="message-title"
             >
               Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Mauris viverra diam vitae quam. Suspendisse potenti.
+              <span
+                class="email"
+              >
+                jrogers5@chron.com
+              </span>
             </div>
             <div>
               <a
@@ -2018,9 +2319,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="treyesg@dmoz.org"
+              data-testid="message-title"
             >
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin interdum mauris non ligula pellentesque ultrices.
+              <span
+                class="email"
+              >
+                treyesg@dmoz.org
+              </span>
             </div>
             <div>
               <a
@@ -2050,9 +2356,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="sshaw1c@naver.com"
+              data-testid="message-title"
             >
               In eleifend quam a odio.
+              <span
+                class="email"
+              >
+                sshaw1c@naver.com
+              </span>
             </div>
             <div>
               <a
@@ -2082,9 +2393,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="arosec@bbb.org"
+              data-testid="message-title"
             >
               Donec dapibus. Duis at velit eu est congue elementum.
+              <span
+                class="email"
+              >
+                arosec@bbb.org
+              </span>
             </div>
             <div>
               <a
@@ -2114,9 +2430,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="jgomezh@cdc.gov"
+              data-testid="message-title"
             >
               Phasellus in felis. Donec semper sapien a libero.
+              <span
+                class="email"
+              >
+                jgomezh@cdc.gov
+              </span>
             </div>
             <div>
               <a
@@ -2146,9 +2467,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="bpierce17@homestead.com"
+              data-testid="message-title"
             >
               In hac habitasse platea dictumst. Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante. Nulla justo.
+              <span
+                class="email"
+              >
+                bpierce17@homestead.com
+              </span>
             </div>
             <div>
               <a
@@ -2178,9 +2504,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="kharveyn@google.nl"
+              data-testid="message-title"
             >
               Nam nulla.
+              <span
+                class="email"
+              >
+                kharveyn@google.nl
+              </span>
             </div>
             <div>
               <a
@@ -2210,9 +2541,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="afreeman14@state.gov"
+              data-testid="message-title"
             >
               Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.
+              <span
+                class="email"
+              >
+                afreeman14@state.gov
+              </span>
             </div>
             <div>
               <a
@@ -2242,9 +2578,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="abakera@craigslist.org"
+              data-testid="message-title"
             >
               Aliquam non mauris. Morbi non lectus.
+              <span
+                class="email"
+              >
+                abakera@craigslist.org
+              </span>
             </div>
             <div>
               <a
@@ -2274,9 +2615,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="phenryt@pen.io"
+              data-testid="message-title"
             >
               Nulla neque libero, convallis eget, eleifend luctus, ultricies eu, nibh. Quisque id justo sit amet sapien dignissim vestibulum.
+              <span
+                class="email"
+              >
+                phenryt@pen.io
+              </span>
             </div>
             <div>
               <a
@@ -2306,9 +2652,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="phoward12@chronoengine.com"
+              data-testid="message-title"
             >
               Suspendisse potenti.
+              <span
+                class="email"
+              >
+                phoward12@chronoengine.com
+              </span>
             </div>
             <div>
               <a
@@ -2338,9 +2689,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="treyesg@dmoz.org"
+              data-testid="message-title"
             >
               Morbi odio odio, elementum eu, interdum eu, tincidunt in, leo.
+              <span
+                class="email"
+              >
+                treyesg@dmoz.org
+              </span>
             </div>
             <div>
               <a
@@ -2370,9 +2726,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="kharveyn@google.nl"
+              data-testid="message-title"
             >
               Suspendisse potenti. Cras in purus eu magna vulputate luctus.
+              <span
+                class="email"
+              >
+                kharveyn@google.nl
+              </span>
             </div>
             <div>
               <a
@@ -2402,9 +2763,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="pharperr@who.int"
+              data-testid="message-title"
             >
               Pellentesque ultrices mattis odio. Donec vitae nisi.
+              <span
+                class="email"
+              >
+                pharperr@who.int
+              </span>
             </div>
             <div>
               <a
@@ -2434,9 +2800,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="dmurphyq@oracle.com"
+              data-testid="message-title"
             >
               Maecenas ut massa quis augue luctus tincidunt. Nulla mollis molestie lorem. Quisque ut erat.
+              <span
+                class="email"
+              >
+                dmurphyq@oracle.com
+              </span>
             </div>
             <div>
               <a
@@ -2466,9 +2837,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="sshaw1c@naver.com"
+              data-testid="message-title"
             >
               Nulla ut erat id mauris vulputate elementum. Nullam varius.
+              <span
+                class="email"
+              >
+                sshaw1c@naver.com
+              </span>
             </div>
             <div>
               <a
@@ -2498,9 +2874,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="shenryd@va.gov"
+              data-testid="message-title"
             >
               Nullam orci pede, venenatis non, sodales sed, tincidunt eu, felis. Fusce posuere felis sed lacus. Morbi sem mauris, laoreet ut, rhoncus aliquet, pulvinar sed, nisl.
+              <span
+                class="email"
+              >
+                shenryd@va.gov
+              </span>
             </div>
             <div>
               <a
@@ -2530,9 +2911,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="mmurrayk@wikimedia.org"
+              data-testid="message-title"
             >
               Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              <span
+                class="email"
+              >
+                mmurrayk@wikimedia.org
+              </span>
             </div>
             <div>
               <a
@@ -2562,9 +2948,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="bpierce17@homestead.com"
+              data-testid="message-title"
             >
               Quisque erat eros, viverra eget, congue eget, semper rutrum, nulla. Nunc purus.
+              <span
+                class="email"
+              >
+                bpierce17@homestead.com
+              </span>
             </div>
             <div>
               <a
@@ -2594,9 +2985,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="jgomezh@cdc.gov"
+              data-testid="message-title"
             >
               Aenean auctor gravida sem. Praesent id massa id nisl venenatis lacinia.
+              <span
+                class="email"
+              >
+                jgomezh@cdc.gov
+              </span>
             </div>
             <div>
               <a
@@ -2626,9 +3022,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="mandrews4@google.it"
+              data-testid="message-title"
             >
               Donec ut mauris eget massa tempor convallis.
+              <span
+                class="email"
+              >
+                mandrews4@google.it
+              </span>
             </div>
             <div>
               <a
@@ -2658,9 +3059,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="mandrews4@google.it"
+              data-testid="message-title"
             >
               Nunc purus.
+              <span
+                class="email"
+              >
+                mandrews4@google.it
+              </span>
             </div>
             <div>
               <a
@@ -2690,9 +3096,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="dmurphyq@oracle.com"
+              data-testid="message-title"
             >
               Nulla justo. Aliquam quis turpis eget elit sodales scelerisque. Mauris sit amet eros.
+              <span
+                class="email"
+              >
+                dmurphyq@oracle.com
+              </span>
             </div>
             <div>
               <a
@@ -2722,9 +3133,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="wgonzalezz@va.gov"
+              data-testid="message-title"
             >
               Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.
+              <span
+                class="email"
+              >
+                wgonzalezz@va.gov
+              </span>
             </div>
             <div>
               <a
@@ -2754,9 +3170,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="mbradley0@google.it"
+              data-testid="message-title"
             >
               Morbi vestibulum, velit id pretium iaculis, diam erat fermentum justo, nec condimentum neque sapien placerat ante.
+              <span
+                class="email"
+              >
+                mbradley0@google.it
+              </span>
             </div>
             <div>
               <a
@@ -2786,9 +3207,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="phowell15@nymag.com"
+              data-testid="message-title"
             >
               Donec vitae nisi. Nam ultrices, libero non mattis pulvinar, nulla pede ullamcorper augue, a suscipit nulla elit ac nulla. Sed vel enim sit amet nunc viverra dapibus.
+              <span
+                class="email"
+              >
+                phowell15@nymag.com
+              </span>
             </div>
             <div>
               <a
@@ -2818,9 +3244,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="bpierce17@homestead.com"
+              data-testid="message-title"
             >
               Duis bibendum, felis sed interdum venenatis, turpis enim blandit mi, in porttitor pede justo eu massa. Donec dapibus.
+              <span
+                class="email"
+              >
+                bpierce17@homestead.com
+              </span>
             </div>
             <div>
               <a
@@ -2850,9 +3281,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="cgreenx@ftc.gov"
+              data-testid="message-title"
             >
               Duis consequat dui nec nisi volutpat eleifend. Donec ut dolor.
+              <span
+                class="email"
+              >
+                cgreenx@ftc.gov
+              </span>
             </div>
             <div>
               <a
@@ -2882,9 +3318,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="lwheeler7@harvard.edu"
+              data-testid="message-title"
             >
               Vestibulum quam sapien, varius ut, blandit non, interdum in, ante.
+              <span
+                class="email"
+              >
+                lwheeler7@harvard.edu
+              </span>
             </div>
             <div>
               <a
@@ -2914,9 +3355,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="pharperr@who.int"
+              data-testid="message-title"
             >
               Nullam molestie nibh in lectus. Pellentesque at nulla.
+              <span
+                class="email"
+              >
+                pharperr@who.int
+              </span>
             </div>
             <div>
               <a
@@ -2946,9 +3392,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="bpierce17@homestead.com"
+              data-testid="message-title"
             >
               Pellentesque ultrices mattis odio. Donec vitae nisi.
+              <span
+                class="email"
+              >
+                bpierce17@homestead.com
+              </span>
             </div>
             <div>
               <a
@@ -2978,9 +3429,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="abrowny@flickr.com"
+              data-testid="message-title"
             >
               Cras mi pede, malesuada in, imperdiet et, commodo vulputate, justo.
+              <span
+                class="email"
+              >
+                abrowny@flickr.com
+              </span>
             </div>
             <div>
               <a
@@ -3010,9 +3466,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="jbaileyb@1688.com"
+              data-testid="message-title"
             >
               In congue. Etiam justo. Etiam pretium iaculis justo.
+              <span
+                class="email"
+              >
+                jbaileyb@1688.com
+              </span>
             </div>
             <div>
               <a
@@ -3042,9 +3503,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="phenryt@pen.io"
+              data-testid="message-title"
             >
               Cras non velit nec nisi vulputate nonummy.
+              <span
+                class="email"
+              >
+                phenryt@pen.io
+              </span>
             </div>
             <div>
               <a
@@ -3074,9 +3540,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="bpierce17@homestead.com"
+              data-testid="message-title"
             >
               Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.
+              <span
+                class="email"
+              >
+                bpierce17@homestead.com
+              </span>
             </div>
             <div>
               <a
@@ -3106,9 +3577,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="phowell15@nymag.com"
+              data-testid="message-title"
             >
               Vivamus in felis eu sapien cursus vestibulum. Proin eu mi. Nulla ac enim.
+              <span
+                class="email"
+              >
+                phowell15@nymag.com
+              </span>
             </div>
             <div>
               <a
@@ -3138,9 +3614,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="hharrisonj@github.io"
+              data-testid="message-title"
             >
               Integer tincidunt ante vel ipsum. Praesent blandit lacinia erat. Vestibulum sed magna at nunc commodo placerat.
+              <span
+                class="email"
+              >
+                hharrisonj@github.io
+              </span>
             </div>
             <div>
               <a
@@ -3170,9 +3651,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="awilliams8@indiegogo.com"
+              data-testid="message-title"
             >
               Quisque ut erat. Curabitur gravida nisi at nibh.
+              <span
+                class="email"
+              >
+                awilliams8@indiegogo.com
+              </span>
             </div>
             <div>
               <a
@@ -3202,9 +3688,14 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
           >
             <div
               class="message-title"
-              data-tooltip="abakera@craigslist.org"
+              data-testid="message-title"
             >
               Nulla tempus. Vivamus in felis eu sapien cursus vestibulum. Proin eu mi.
+              <span
+                class="email"
+              >
+                abakera@craigslist.org
+              </span>
             </div>
             <div>
               <a

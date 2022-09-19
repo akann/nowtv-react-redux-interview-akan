@@ -26,6 +26,7 @@ ul {
 nav {
   display: flex;
   justify-content: center;
+  margin-bottom: 2em;
 }
 
 nav a {
@@ -46,4 +47,10 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  header {
+    font-size: .8em;
+  }
 }

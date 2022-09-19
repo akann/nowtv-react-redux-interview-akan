@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
 import { fetchData } from '../actions';
-import { formatMembersMessages } from '../helpers';
+import { formatMembersMessagesData } from '../helpers';
 import { Message } from '../components/message';
 
 const App = () => {
@@ -23,7 +23,7 @@ const App = () => {
   }
 
   if (!formartedMessagesRef.current.length) {
-    formartedMessagesRef.current = formatMembersMessages(messages, members);
+    formartedMessagesRef.current = formatMembersMessagesData(messages, members);
   }
 
   const handleNameClick = (e, userId) => {
@@ -40,11 +40,13 @@ const App = () => {
       <header>
         <h1>Welcome to the Akan&apos;s NOW TV test!</h1>
       </header>
-      <nav>
-        <a href="/" onClick={(e) => handleNameClick(e)} tabIndex={0} data-testid="home">
-          Home
-        </a>
-      </nav>
+      {selectedUserId && (
+        <nav>
+          <a href="/" onClick={(e) => handleNameClick(e)} tabIndex={0} data-testid="reset">
+            Reset
+          </a>
+        </nav>
+      )}
       <section>
         <ul>
           {formartedMessages.map((message) => (

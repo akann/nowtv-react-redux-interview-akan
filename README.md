@@ -20,7 +20,7 @@ It has two publicly exposed functions `getMessages` and `getMembers`.
 
 * Your tasks will be to add further logic to display and manipulate the data returned from these functions, without modifying `data/index.js`.  Code addition should be unit tested.
 
-## Tasks 
+## Tasks
 
 1. Render the list of messages from the redux store
 
@@ -32,7 +32,7 @@ It has two publicly exposed functions `getMessages` and `getMembers`.
 
 5. Sort the messages by time
 
-## Additional Tasks 
+## Additional Tasks
 
 1. How could you improve the accessibility of your website?
 
@@ -49,3 +49,23 @@ It has two publicly exposed functions `getMessages` and `getMembers`.
 ## Submission
 
 Please upload your solution to your github account as a public repository, and send the URL to us.
+
+
+
+# NOW TV React Interview - Akan Nkweini
+
+## Unit tests
+### Result of unit tests:
+![Unit tests](./unit-tests.png)
+
+
+### Result of test coverage:
+![Test covarage](./coverage.png)
+
+## How to improve accessibility
+ * ff
+ * yy
+ * xx
+
+## Automation testing of the application.
+  * I would us CI pipeline like jenkins
