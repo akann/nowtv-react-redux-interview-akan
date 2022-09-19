@@ -7,7 +7,6 @@ import { store as setupStore } from '../store'
 export function renderWithProviders(
   ui,
   {
-    preloadedState = {},
     store = setupStore,
     ...renderOptions
   } = {}

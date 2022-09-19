@@ -2,7 +2,7 @@ import React, { useRef, useState } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 
 import { fetchData } from '../actions';
-import { formatMembersMessages } from '../helpers';
+import { formatMembersMessagesData } from '../helpers';
 import { Message } from '../components/message';
 
 const App = () => {
@@ -23,7 +23,7 @@ const App = () => {
   }
 
   if (!formartedMessagesRef.current.length) {
-    formartedMessagesRef.current = formatMembersMessages(messages, members);
+    formartedMessagesRef.current = formatMembersMessagesData(messages, members);
   }
 
   const handleNameClick = (e, userId) => {
