@@ -63,9 +63,12 @@ Please upload your solution to your github account as a public repository, and s
 ![Test covarage](./coverage.png)
 
 ## How to improve accessibility
- * ff
- * yy
- * xx
+   * Include proper alt text for images
+   * Give links unique and descriptive names
+   * Use color with care
+   * Design forms for accessibility
+   * Ensure that all content can be accessed with the keyboard alone in a logical way
+   * Make dynamic content accessible
 
 ## Automation testing of the application.
   * I would us CI pipeline like jenkins
