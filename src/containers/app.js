@@ -40,11 +40,13 @@ const App = () => {
       <header>
         <h1>Welcome to the Akan&apos;s NOW TV test!</h1>
       </header>
-      <nav>
-        <a href="/" onClick={(e) => handleNameClick(e)} tabIndex={0} data-testid="home">
-          Home
-        </a>
-      </nav>
+      {selectedUserId && (
+        <nav>
+          <a href="/" onClick={(e) => handleNameClick(e)} tabIndex={0} data-testid="reset">
+            Reset
+          </a>
+        </nav>
+      )}
       <section>
         <ul>
           {formartedMessages.map((message) => (
