@@ -50,7 +50,7 @@ const mockMembers = [
 
 let data;
 
-describe('formatMembersMessages()', () => {
+describe('formatMembersMessagesData()', () => {
   beforeEach(() => {
     data = formatMembersMessagesData(mockMessages, mockMembers);
   });

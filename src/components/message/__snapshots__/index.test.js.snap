@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<App /> should render to successfully 1`] = `
+exports[`<Message /> should render to successfully 1`] = `
 <DocumentFragment>
   <li
     class="message"

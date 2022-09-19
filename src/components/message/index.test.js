@@ -21,8 +21,8 @@ const mockMessage = {
   formattedDateTime: '1st Feb 2017 18:52',
 };
 
-describe('<App />', () => {
-  it('should render to successfully', () => {
+describe('<Message />', () => {
+  it('should render without crashing', () => {
     const { asFragment } = render(<Message message={mockMessage} />);
     expect(asFragment()).toMatchSnapshot();
   });
