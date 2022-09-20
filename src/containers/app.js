@@ -36,17 +36,10 @@ const App = () => {
     : formartedMessagesRef.current;
 
   return (
-    <main data-testid="main-page">
+    <main className="main" data-testid="main-page">
       <header>
         <h1>Welcome to the Akan&apos;s NOW TV test!</h1>
       </header>
-      {selectedUserId && (
-        <nav>
-          <a href="/" onClick={(e) => handleNameClick(e)} tabIndex={0} data-testid="reset">
-            Reset
-          </a>
-        </nav>
-      )}
       <section>
         <ul>
           {formartedMessages.map((message) => (
@@ -54,6 +47,13 @@ const App = () => {
           ))}
         </ul>
       </section>
+      <footer className="footer">
+        {selectedUserId && (
+          <a className="backButton" href="/" onClick={(e) => handleNameClick(e)} tabIndex={0} data-testid="reset">
+            Back
+          </a>
+        )}
+      </footer>
     </main>
   );
 };
