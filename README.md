@@ -72,3 +72,6 @@ Please upload your solution to your github account as a public repository, and s
 
 ## Automation testing of the application.
   * I would us CI pipeline like jenkins
+
+## CSS solution to display email on hover
+ I would use pseudo element. I would get the content (email) of the pseudo element from attribute.
