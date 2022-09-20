@@ -54,6 +54,8 @@ Please upload your solution to your github account as a public repository, and s
 
 # NOW TV React Interview - Akan Nkweini
 
+## Demo
+https://now.akan.nkweini.org
 ## Unit tests
 ### Result of unit tests:
 ![Unit tests](./unit-tests.png)
