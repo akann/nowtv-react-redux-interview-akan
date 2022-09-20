@@ -3,6 +3,7 @@
 exports[`<App /> should render page with data to match snapshot 1`] = `
 <DocumentFragment>
   <main
+    class="main"
     data-testid="main-page"
   >
     <header>
@@ -3714,6 +3715,9 @@ exports[`<App /> should render page with data to match snapshot 1`] = `
         </li>
       </ul>
     </section>
+    <footer
+      class="footer"
+    />
   </main>
 </DocumentFragment>
 `;
