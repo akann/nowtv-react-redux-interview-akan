@@ -11,22 +11,15 @@
 
 .message-title {
 	position: relative;
+  background-color: white;
+  transition: all 1s ease;
+  display: inline;
+  border-radius: .4em;
+  padding: .2em 0;
 }
 
-.message-title:before {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  border: 1px;
-  width: 0;
-  height: 1px;
-  background-color: var(--tooltip-bg-color);
-  transition: all .5s ease;
-}
-
-.message-title:hover:before {
-  width: 30px;
-  border: 1px solid var(--tooltip-bg-color);
+.message-title:hover {
+  background-color: #F0F0F0;
 }
 
 .date-time {
