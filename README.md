@@ -1,3 +1,30 @@
+# NOW TV React Interview - Akan Nkweini
+
+## Demo
+https://now.akan.nkweini.org
+## Unit tests
+### Result of unit tests:
+![Unit tests](./unit-tests.png)
+
+
+### Result of test coverage:
+![Test covarage](./coverage.png)
+
+## How to improve accessibility
+   * Include proper alt text for images
+   * Give links unique and descriptive names
+   * Use color with care
+   * Design forms for accessibility
+   * Ensure that all content can be accessed with the keyboard alone in a logical way
+   * Make dynamic content accessible
+
+## Automation testing of the application.
+  * I would us CI pipeline like jenkins
+
+## CSS solution to display email on hover
+ I would use pseudo element. I would get the content (email) of the pseudo element from attribute.
+
+
 # NOW TV React Interview
 
 ![NowTV](./logo.png)
@@ -52,28 +79,3 @@ Please upload your solution to your github account as a public repository, and s
 
 
 
-# NOW TV React Interview - Akan Nkweini
-
-## Demo
-https://now.akan.nkweini.org
-## Unit tests
-### Result of unit tests:
-![Unit tests](./unit-tests.png)
-
-
-### Result of test coverage:
-![Test covarage](./coverage.png)
-
-## How to improve accessibility
-   * Include proper alt text for images
-   * Give links unique and descriptive names
-   * Use color with care
-   * Design forms for accessibility
-   * Ensure that all content can be accessed with the keyboard alone in a logical way
-   * Make dynamic content accessible
-
-## Automation testing of the application.
-  * I would us CI pipeline like jenkins
-
-## CSS solution to display email on hover
- I would use pseudo element. I would get the content (email) of the pseudo element from attribute.
